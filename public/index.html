@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shan Kirana Shop | Today’s prices</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="board"><div class="wrap">
+  <h1>Shan Kirana Shop</h1>
+  <p>Today’s prices, updated by the shop. Pick your items and send your order.</p>
+</div></header>
+<div class="search"><div class="wrap">
+  <input type="search" id="q" placeholder="Search items, for example dal or oil" aria-label="Search items">
+  <div class="chips" id="chips"></div>
+</div></div>
+<main class="wrap" id="list" aria-live="polite"></main>
+<footer>Prices can change during the day. The shop confirms the final bill.</footer>
+<div class="bar" id="bar"><div class="wrap">
+  <div><div id="count"></div><strong id="total"></strong></div>
+  <button id="send">Send order on WhatsApp</button>
+</div></div>
+<script src="/app.js"></script>
+</body>
+</html>

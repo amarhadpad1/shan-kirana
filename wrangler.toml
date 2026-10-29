@@ -1,0 +1,8 @@
+name = "shan-kirana"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "shan-kirana-db"
+database_id = "3f332262-2017-41b8-82d7-d2a53951c9e9"
